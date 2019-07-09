@@ -20,8 +20,8 @@ public class Array {
         for (int i = 0; i < n; i++) {
             System.out.print("Enter [" + i + "] index of array = ");
             array[i] = in.nextInt();
-            System.out.println(array[2]);
-        }
 
+        }
+            System.out.println("Number of your index is: " + array[2]);
     }
 }
